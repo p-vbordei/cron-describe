@@ -1,5 +1,7 @@
 # cron-describe
 
+[![ci](https://github.com/p-vbordei/cron-describe/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/cron-describe/actions/workflows/ci.yml)
+
 Validate 5-field cron expressions and produce human-readable English descriptions. Zero runtime dependencies.
 
 ```ts
