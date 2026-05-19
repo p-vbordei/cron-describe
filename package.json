@@ -1,0 +1,43 @@
+{
+  "name": "cron-describe",
+  "version": "0.1.0",
+  "description": "Validate 5-field cron expressions and produce human-readable English descriptions. Zero dependencies.",
+  "keywords": ["cron", "validate", "describe", "human-readable"],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": {
+    "name": "Vlad Bordei",
+    "email": "bordeivlad@gmail.com",
+    "url": "https://github.com/p-vbordei"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-vbordei/cron-describe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p-vbordei/cron-describe/issues"
+  },
+  "homepage": "https://github.com/p-vbordei/cron-describe#readme",
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
