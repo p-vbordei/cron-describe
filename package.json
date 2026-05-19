@@ -1,6 +1,6 @@
 {
   "name": "cron-describe",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Validate 5-field cron expressions and produce human-readable English descriptions. Zero dependencies.",
   "keywords": [
     "cron",
