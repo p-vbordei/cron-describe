@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/cron-describe/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/cron-describe/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/cron-describe.svg)](https://www.npmjs.com/package/cron-describe)
+[![downloads](https://img.shields.io/npm/dm/cron-describe.svg)](https://www.npmjs.com/package/cron-describe)
+[![bundle](https://img.shields.io/bundlejs/size/cron-describe)](https://bundlejs.com/?q=cron-describe)
+
 Validate 5-field cron expressions and produce human-readable English descriptions. Zero runtime dependencies.
 
 ```ts
